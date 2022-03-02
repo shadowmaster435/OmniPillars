@@ -1,0 +1,146 @@
+{
+  "multipart": [
+    {
+      "apply": { "model": "omnipillars:block/quartzface" }
+    },
+    {
+      "when": {
+      "north": "connected|cap", "south": "connected|cap", "up": "none", "down": "none", "east": "none", "west": "none"
+      },
+      "apply": {
+        "model": "omnipillars:block/quartzfacestraight"
+      }
+    },
+    {
+      "when": {
+        "north": "none", "south": "none", "up": "connected|cap", "down": "connected|cap", "east": "none", "west": "none"
+      },
+      "apply": {
+        "model": "omnipillars:block/quartzfacestraight",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "north": "none", "south": "none", "up": "none", "down": "none", "east": "connected|cap", "west": "connected|cap"
+      },
+      "apply": {
+        "model": "omnipillars:block/quartzfacestraight",
+        "y": 90
+
+      }
+    },
+    {
+      "when": {
+        "north": "connected"
+      },
+      "apply": {
+        "model": "omnipillars:block/quartzlimb"
+      }
+    },
+    {
+      "when": {
+        "east": "connected"
+      },
+      "apply": {
+        "model": "omnipillars:block/quartzlimb",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "connected"
+      },
+      "apply": {
+        "model": "omnipillars:block/quartzlimb",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "west": "connected"
+      },
+      "apply": {
+        "model": "omnipillars:block/quartzlimb",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "up": "connected"
+      },
+      "apply": {
+        "model": "omnipillars:block/quartzlimb",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "down": "connected"
+      },
+      "apply": {
+        "model": "omnipillars:block/quartzlimb",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "north": "cap"
+      },
+      "apply":
+      {
+        "model": "omnipillars:block/quartzcap"
+      }
+    },
+    {
+      "when": {
+        "east": "cap"
+      },
+      "apply":
+      {
+        "model": "omnipillars:block/quartzcap",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "cap"
+      },
+      "apply":
+      {
+        "model": "omnipillars:block/quartzcap",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "west": "cap"
+      },
+      "apply":
+      {
+        "model": "omnipillars:block/quartzcap",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "up": "cap"
+      },
+      "apply":
+      {
+        "model": "omnipillars:block/quartzcap",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "down": "cap"
+      },
+      "apply":
+      {
+        "model": "omnipillars:block/quartzcap",
+        "x": 90
+      }
+    }
+  ]
+}

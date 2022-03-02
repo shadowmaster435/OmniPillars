@@ -1,0 +1,8 @@
+{
+  "parent": "omnipillars:block/omnipillarcap",
+  "textures": {
+    "cap": "omnipillars:block/quartz_pillar_cap",
+    "pillar": "omnipillars:block/quartz_pillar_limb",
+    "particle": "minecraft:block/quartz_pillar"
+  }
+}
